@@ -45,7 +45,7 @@ services:
 
   #API gateways
     pricingsimulationapigw:
-      image: ${DOCKER_REGISTRY-}ocelotapigw
+         image: ${DOCKER_REGISTRY-}ocelotapigw
       build:
         context: .
         dockerfile: src/ApiGateways/ApiGatewayBase/OcelotApiGw/Dockerfile
